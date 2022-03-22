@@ -12,5 +12,5 @@ Yeah, me too.
 # Next Steps
 
 * more appropriate icons
-* flash the current item after scrolling
-* inject the action/icon into the page itself
+* inject the action/icon into the page itself (?)
+* keyboard shortcut (?)
