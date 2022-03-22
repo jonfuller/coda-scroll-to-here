@@ -35,7 +35,7 @@ chrome.webNavigation.onCompleted.addListener(
 );
 
 function updateActionState(tabId, shouldEnable, message) {
-  console.log(`${shouldEnable} - ${message}`);
+  console.debug(`${shouldEnable} - ${message}`);
   if (shouldEnable) {
     chrome.action.enable({tabId});
     chrome.action.setBadgeText({
